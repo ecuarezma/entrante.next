@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../components/images";
+import images from "../images";
 
 const Homepage = () => {
   return (
@@ -7,7 +7,7 @@ const Homepage = () => {
       <header>
         <h1>Edgar Cuarezma</h1>
       </header>
-      <img src={`../images/home/${image.home}`} />
+      <img src={`../images/home/${images.home}`} />
       <h2>Fine Art Illustration</h2>
     </div>
   );
