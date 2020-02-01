@@ -1,13 +1,7 @@
-import React from "react";
-import Card from "../Card";
-import images from "../images";
+import imageLoader from "../utilities/imageLoader";
 
-const Gallery = props => {
-  return (
-    <div>
-      <h1>{props.page}</h1>
-    </div>
-  );
+const Gallery = ({ page }) => {
+  return imageLoader(page);
 };
 
 export default Gallery;

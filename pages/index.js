@@ -1,5 +1,5 @@
 import React from "react";
-import images from "../images";
+import images from "../components/utilities/images";
 
 const Homepage = () => {
   return (

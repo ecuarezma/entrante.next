@@ -7,18 +7,22 @@ const Navbar = () => {
   return (
     <nav>
       <ul className={styles.Navbar}>
-        <NavLink id="Home" />
-        <NavLink id="Paintings" />
-        <NavLink id="Drawings" />
-        <NavLink id="Studies" />
         <li>
           <Link href="/">
-            <a>Store</a>
+            <a>home</a>
+          </Link>
+        </li>
+        <NavLink id="paintings" />
+        <NavLink id="drawings" />
+        <NavLink id="studies" />
+        <li>
+          <Link href="/">
+            <a>store</a>
           </Link>
         </li>
         <li>
           <Link href="/">
-            <a>Blog</a>
+            <a>blog</a>
           </Link>
         </li>
       </ul>

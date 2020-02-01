@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import Splash from "../components/Splash";
+import Gallery from "../components/Gallery";
 
 const Page = () => {
   const router = useRouter();
@@ -8,8 +8,14 @@ const Page = () => {
   useEffect(() => {
     setLoading(false);
   });
-  console.log(isLoading);
-  return isLoading ? <p>Loading...</p> : <Splash />;
+
+  let display = isLoading ? (
+    <p>Loading...</p>
+  ) : (
+    <Gallery page={router.query.id} />
+  );
+
+  return display;
 };
 
 export default Page;
