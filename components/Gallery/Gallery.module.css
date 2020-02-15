@@ -1,0 +1,10 @@
+.Gallery {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+@media (min-width: 600px) {
+  .Galery {
+    flex-flow: row wrap;
+  }
+}
