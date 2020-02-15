@@ -1,20 +1,22 @@
 import React from "react";
 import useInputState from "../utilities/hooks/useInputState";
+import classes from "./Form.module.css";
 
 const Form = () => {
   const [value, handleChange, handleSubmit, hideForm] = useInputState(" ");
   let form = hideForm ? (
     <p>Thank you for joining!</p>
   ) : (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className={classes.Form}>
+      <label>Newsletter</label>
       <input
         type="email"
         title="email"
-        placeholder="enter your email"
+        placeholder="your email"
         onChange={handleChange}
         value={value}
       />
-      <button>Submit</button>
+      <button>Subscribe</button>
     </form>
   );
   return form;

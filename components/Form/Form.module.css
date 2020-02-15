@@ -1,0 +1,10 @@
+.Form input {
+  padding: 3px;
+  margin: 0 1rem 0 1rem;
+  text-indent: 1rem;
+  font-size: 1.25rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
