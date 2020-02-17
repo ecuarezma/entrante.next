@@ -1,7 +1,10 @@
 .Navbar {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   list-style-type: none;
+  height: 75px;
+  margin: 0 2rem 0 2rem;
 }
 
 .Navbar a {
