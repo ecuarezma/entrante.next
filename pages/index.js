@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import images from "../components/utilities/images";
 
 const style = {
@@ -6,7 +6,7 @@ const style = {
     display: "flex",
     flexFlow: "column nowrap",
     alignItems: "center",
-    margin: "0 4rem"
+    margin: "calc(75px + 4rem) 4rem"
   },
   image: {
     width: "100%"
@@ -14,15 +14,24 @@ const style = {
 };
 
 const Homepage = () => {
-  return (
-    <div style={style.main}>
-      <header>
-        <h1>Edgar Cuarezma</h1>
-      </header>
+  const [isLoading, setLoading] = useState(true);
+  useEffect(() => {
+    setLoading(false);
+  });
+
+  let display = isLoading ? (
+    <div className="isLoading">
+      <p>Loading...</p>
+    </div>
+  ) : (
+    <header style={style.main}>
+      <h1>Edgar Cuarezma</h1>
       <img style={style.image} src={`../images/home/${images.home}`} />
       <h2>Fine Art Illustration</h2>
-    </div>
+    </header>
   );
+
+  return display;
 };
 
 export default Homepage;

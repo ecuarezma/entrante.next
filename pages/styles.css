@@ -9,6 +9,19 @@ html {
 }
 
 body {
+  display: flex;
+  flex-flow: column nowrap;
   margin: 0;
   padding: 0;
+}
+
+.isLoading {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: calc(75px + 4rem) 4rem;
+}
+
+a.active {
+  color: #ac3b3b;
 }

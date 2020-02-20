@@ -1,11 +1,22 @@
 import React from "react";
 import Link from "next/link";
 
-const NavLink = props => {
+const NavLink = ({ id }) => {
+  const handleToggle = id => {
+    let links = document.querySelectorAll("li a");
+
+    [...links].map(link => {
+      link.classList.remove("active");
+      if (link.innerHTML === id) {
+        link.classList.add("active");
+      }
+    });
+  };
+
   return (
-    <li>
-      <Link href="/[id]" as={`/${props.id}`}>
-        <a>{props.id}</a>
+    <li onClick={() => handleToggle(id)}>
+      <Link href="/[id]" as={`/${id}`}>
+        <a>{id}</a>
       </Link>
     </li>
   );

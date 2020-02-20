@@ -10,7 +10,9 @@ const Page = () => {
   });
 
   let display = isLoading ? (
-    <p>Loading...</p>
+    <div className="isLoading">
+      <p>Loading...</p>
+    </div>
   ) : (
     <Gallery page={router.query.id} />
   );
