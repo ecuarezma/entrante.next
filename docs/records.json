@@ -1,0 +1,139 @@
+{
+  "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!node_modules/postcss-loader/src/index.js??__nextjs_postcss!pages/styles.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!node_modules/postcss-loader/src/index.js??__nextjs_postcss!components/Gallery/Gallery.module.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!node_modules/postcss-loader/src/index.js??__nextjs_postcss!components/Navbar/Navbar.module.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!node_modules/postcss-loader/src/index.js??__nextjs_postcss!components/Footer/Footer.module.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!node_modules/postcss-loader/src/index.js??__nextjs_postcss!components/Form/Form.module.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!node_modules/postcss-loader/src/index.js??__nextjs_postcss!components/Card/Card.module.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "multi next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! node_modules/next/dist/client/router.js": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "framework": 2,
+      "a9e14dd5445c04c1e7203711ea06ae8780ff1951": 3,
+      "static/LYri5wb0XwRjXTo7MkJHp/pages/[id].js": 4,
+      "static/LYri5wb0XwRjXTo7MkJHp/pages/_app.js": 5,
+      "static/LYri5wb0XwRjXTo7MkJHp/pages/_error.js": 6,
+      "static/LYri5wb0XwRjXTo7MkJHp/pages/index.js": 7,
+      "static/runtime/main.js": 8,
+      "static/runtime/polyfills.js": 9
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
