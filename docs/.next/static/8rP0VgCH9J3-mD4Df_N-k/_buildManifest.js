@@ -1,0 +1,1 @@
+self.__BUILD_MANIFEST = {"/[id]":["static\u002Fcss\u002F5195697ca71d0ae60a22.css"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
